@@ -42,6 +42,7 @@ $routes->get('/komik/create', 'Komik::create');
 $routes->get('/komik/edit/(:segment)', 'Komik::edit/$1');
 // $routes->get('komik/save', 'Komik::save');
 $routes->delete('/komik/(:num)', 'Komik::delete/$1');
+$routes->delete('/orang/(:num)', 'Orang::delete/$1');
 $routes->get('/komik/(:any)', 'Komik::detail/$1');
 
 // $routes->get('/coba/index','Coba::index');

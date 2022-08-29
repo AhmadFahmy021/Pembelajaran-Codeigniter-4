@@ -6,6 +6,7 @@ class Pages extends BaseController
 {
     public function index()
     {
+
         $data = [
             'title' => 'Home | Ahmad Fahmy',
             'tes' => ["Satu", "Dua", "Tiga"]
